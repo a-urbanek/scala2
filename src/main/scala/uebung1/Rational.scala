@@ -16,5 +16,16 @@ class Rational (val numerator:Int, val denominator:Int){
     if (numerator/denominator<x.num/x.denom) this else x
   }
 
+  def add(x:Rational): Rational = {
+    new Rational(this.num * x.denom + this.denom * x.num, this.denom * x.denom)
+  }
+  def sub(x:Rational): Rational = {
+    new Rational(this.num * x.denom - this.denom * x.num, this.denom * x.denom)
+  }
+
+  def neg:Rational = {
+    require(num != 0, "Denominator darf nicht 0 werden!")
+    new Rational(this.denom, this.num)
+  }
 }
 

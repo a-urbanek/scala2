@@ -1,0 +1,11 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/garuda/IdeaProjects/Uebung1/target/scala-2.13/uebung1_2.13-1.0.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	uebung1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/garuda/IdeaProjects/Uebung1/target/scala-2.13/classes/uebung1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	uebung1/App$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/garuda/IdeaProjects/Uebung1/target/scala-2.13/classes/uebung1/App$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	uebung1/App.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/garuda/IdeaProjects/Uebung1/target/scala-2.13/classes/uebung1/App.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	uebung1/Rational.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/garuda/IdeaProjects/Uebung1/target/scala-2.13/classes/uebung1/Rational.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

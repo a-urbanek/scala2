@@ -1,0 +1,9 @@
+// Uebungen zu Rekursionen 1
+
+
+// Easy recursion: sum from 0 to specified integer in parameter
+
+def summe(n:Int):Int = {
+  if (n <= 0) 0
+  else summe(n - 1) + n
+}

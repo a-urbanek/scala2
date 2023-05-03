@@ -1,0 +1,12 @@
+def or(x:Boolean, y: => Boolean):Boolean = {
+  if (!x) y
+  else true
+}
+
+val bool1 = true
+val bool2 = false
+
+or(bool1, bool2)
+or(bool1, bool1)
+or(bool2, bool1)
+or(bool2, None)

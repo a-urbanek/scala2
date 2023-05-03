@@ -1,0 +1,6 @@
+def teiler(zahl:Int):Int = {
+  def prim(zahl:Int, mod:Int):Int = {
+    if ((zahl % mod) == 0
+
+  }
+}

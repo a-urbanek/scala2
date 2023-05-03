@@ -1,0 +1,10 @@
+def teiler(zahl:Int):Int = {
+  def prim(mod:Int):Int = {
+    if (mod <= 0) 1
+    else if (zahl % mod == 0) mod
+    else prim(mod - 1)
+  }
+  prim(zahl - 1)
+}
+
+teiler(10)

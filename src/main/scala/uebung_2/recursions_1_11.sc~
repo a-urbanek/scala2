@@ -1,0 +1,56 @@
+import scala.annotation.tailrec
+// Uebungen zu Rekursionen 1
+
+
+// Easy recursion: sum from 0 to specified integer in parameter
+
+def summe(n:Int):Int = {
+  if (n <= 0) 0
+  else summe(n - 1) + n
+}
+
+def summeTR(n:Int):Int = {
+  @tailrec
+  def sum(n:Int, res:Int):Int = {
+    if (n > 0) sum(n - 1, res + n)
+    else res
+  }
+  sum(n, 0)
+}
+
+// sum from parameter n up to parameter max
+
+def sumMax(n:Int, max:Int):Int = {
+  if (n >= max) 0
+  else sumMax(n + 1, max) + n
+}
+
+//
+
+def sumNatNum(x:Int):Int = {
+  if (x <= 0) 0
+  else if (x % 3 == 0 || x % 5 == 0) sumNatNum(x - 1) + x
+  else sumNatNum(x - 1)
+}
+
+def sumNatNumBackTR(x:Int):Int = {
+
+  @tailrec
+  def sum(x:Int, res:Int):Int = {
+    if (x <= 0) res
+    else if (x % 3 == 0 || x % 5 == 0) sum(x - 1, res + x)
+    else sum(x - 1, res)
+  }
+  sum(x, 0)
+}
+
+def sumNatNumUpTR(x:Int):Int = {
+
+  @tailrec
+  def sum(x:Int, res:Int):Int = {
+    if (x >= )
+  }
+}
+
+sumNatNum(9)
+sumNatNumBackTR(9)

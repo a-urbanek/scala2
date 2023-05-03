@@ -1,0 +1,23 @@
+// Uebungen zu Rekursionen 1
+
+
+// Easy recursion: sum from 0 to specified integer in parameter
+
+def summe(n:Int):Int = {
+  if (n <= 0) 0
+  else summe(n - 1) + n
+}
+
+// sum from parameter n up to parameter max
+
+def sumMax(n:Int, max:Int):Int = {
+  if (n >= max) 0
+  else sumMax(n + 1, max) + n
+}
+
+//
+
+def sumNatNum(x:Int):Int = {
+  if ()
+
+}
